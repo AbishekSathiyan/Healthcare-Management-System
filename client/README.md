@@ -72,10 +72,5 @@ App will be available at 👉 [http://localhost:5173](http://localhost:5173)
 
 ---
 
-### 📸 Screenshots (optional)
+### 📸 Screenshots
 
-_Add screenshots here once UI is ready._
-
----
-
-Would you like me to also write the **`server/README.md`** (for Node.js + Express backend) next — matching this same clean format?
