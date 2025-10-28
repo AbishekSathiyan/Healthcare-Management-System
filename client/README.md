@@ -1,16 +1,81 @@
-# React + Vite
+## 🏥 Healthcare Management System — Client (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌐 Overview
 
-Currently, two official plugins are available:
+This is the **frontend (React + Tailwind CSS)** of the **Healthcare Management System**, a digital platform for doctors and patients to manage appointments, online consultations, and health records efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### ⚙️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Layer                | Technology                | Purpose                              |
+| -------------------- | ------------------------- | ------------------------------------ |
+| **Frontend**         | React.js + Vite           | Build fast, modern UI                |
+| **Styling**          | Tailwind CSS              | Responsive and clean design          |
+| **State Management** | React Hooks / Context API | Manage user sessions and app state   |
+| **Real-time**        | Socket.IO                 | Live consultations, chat             |
+| **Notifications**    | Twilio API                | Appointment reminders via SMS        |
+| **File Storage**     | Cloudinary                | Upload prescriptions & reports       |
+| **Payments**         | Razorpay                  | Secure online payments               |
+| **AI Assistant**     | OpenAI API                | Smart health suggestions             |
+| **Auth**             | Firebase + JWT            | Secure login and persistent sessions |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📁 Folder Structure
+
+```
+client/
+│
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Main pages (Login, Dashboard, etc.)
+│   ├── assets/          # Images and static files
+│   ├── App.jsx          # Main app component
+│   └── main.jsx         # Entry point
+│
+├── public/
+│   └── vite.svg         # Public assets
+│
+├── tailwind.config.js   # Tailwind setup
+└── package.json         # Project dependencies
+```
+
+---
+
+### 🧑‍💻 Installation & Setup
+
+```bash
+# Move to client folder
+cd client
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+```
+
+App will be available at 👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+### 🚀 Features
+
+- Patient registration & doctor profiles
+- Online consultation & real-time chat
+- AI health assistant (OpenAI API)
+- Appointment reminders (Twilio API)
+- File upload for prescriptions/reports (Cloudinary)
+- Secure payment integration (Razorpay)
+- Admin dashboard with analytics
+
+---
+
+### 📸 Screenshots (optional)
+
+_Add screenshots here once UI is ready._
+
+---
+
+Would you like me to also write the **`server/README.md`** (for Node.js + Express backend) next — matching this same clean format?
