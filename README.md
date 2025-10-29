@@ -8,7 +8,7 @@ A full-stack Healthcare Management System built with the MERN Stack, integrating
 * Tech stack
 * Setup guide
 * Collaboration workflow
-* Team section (you & Merlin)
+* Team section (Abishek S & Merlin B) 
 
 
 ````
