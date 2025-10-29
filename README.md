@@ -8,7 +8,7 @@ A full-stack Healthcare Management System built with the MERN Stack, integrating
 * Tech stack
 * Setup guide
 * Collaboration workflow
-* Team section (Abishek S & Merlin B) 
+* Team section (Abishek S & Merlin Baskar) 
 
 
 ````
@@ -164,7 +164,7 @@ This project is open-source under the [MIT License](LICENSE).
 
 ---
 
-### 🌟 Developed with dedication by Abishek & Merlin
+### 🌟 Developed with dedication by Abishek & Merlin Baskar
 
 ```
 
