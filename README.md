@@ -145,7 +145,7 @@ git push origin feature/frontend
 | Name             | Role                    | GitHub                                                 |
 | ---------------- | ----------------------- | ------------------------------------------------------ |
 | Abishek Sathiyan | Frontend & Project Lead | [@AbishekSathiyan](https://github.com/AbishekSathiyan) |
-| Merlin           | Backend Developer       | [GitHub Profile](#)                                    |
+| Merlin   Baskar    | Backend Developer       | [GitHub Profile](#)                                    |
 
 ---
 
